@@ -1,0 +1,7 @@
+@media only screen and (max-width: 600px) {
+    .Navvbbar{
+        width: 85rem;
+        font-size: x-large;
+        position: fixed;
+    }
+}

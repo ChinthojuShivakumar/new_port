@@ -1,0 +1,59 @@
+
+.user{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 450px;
+}
+.user_name{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    /* background-color: brown; */
+    width: 550px;
+    height: 250px;
+    padding: 30px 0px;
+}
+
+.h1, .h2, .h3{
+    width: fit-content;
+    height: fit-content;
+    font-family: Poppins;
+    text-align: start;
+ 
+}
+
+.btn{
+    position: absolute;
+    left: 0px;
+    top: 200px;
+    font-size: larger;
+    font-weight: 600;
+}
+.p{
+    text-align: start;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .user{
+        display: block;
+        font-size: 2rem;
+        position: relative;
+        top: 150px;
+        left: 300px;
+        height: 50rem;
+    }
+    .h1,.h3{
+        width: 50rem;
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    .btn{
+        position: relative;
+        top: 45px;
+        right: 100px;
+        
+    }
+   
+}
